@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona - Página Web</title>
+    <!-- Fuente caricaturesca -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS para todo -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background-color: crimson;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            color: yellow; 
+            font-family: 'Comic Neue', cursive; 
+            font-size: 60px;
+        }
+
+        p.sombra {
+            color: yellow; 
+            font-family: 'Comic Neue', cursive; 
+            font-size: 40px;
+            text-shadow: 2px 2px 4px blue, -2px -2px 4px red;
+        }
+
+        /* Enlaces */
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Video */
+        video {
+            margin-top: 20px;
+        }
+
+        /* Estilo para trofeos (Títulos Ganados) */
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px;
+        }
+
+        .trofeo {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 15px;
+            width: 230px;
+            transition: transform 0.3s ease;
+        }
+
+        .trofeo img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #FFD700;
+            transition: transform 0.3s ease;
+        }
+
+        .trofeo img:hover {
+            transform: scale(1.1);
+        }
+
+        .trofeo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #FFD700;
+        }
+
+        .trofeo h3 {
+            margin-top: 10px;
+            color: #FFD700;
+        }
+
+        .trofeo p {
+            font-size: 0.9em;
+            color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título -->
+  
+<!-- Contenedor para título y escudo sin superposición -->
+<div style="display: flex; align-items: center; justify-content: center; gap: 10px; white-space: nowrap;">
+    <div style="color: yellow; font-family: 'Comic Neue', cursive; font-size: 60px; font-weight: bold;">
+        FC Barcelona
+    </div>
+    <img src="barcelona.png" alt="" style="height: 60px; width: auto;">
+</div>
+
+
+
+
+
+    <!-- Frase con sombra azulgrana -->
+    <p class="sombra">“Més que un club”</p>
+
+    <!-- Sección Historia -->
+<!-- Sección Historia -->
+<h2 style="color: yellow; text-align: center;">Historia</h2>
+
+<!-- Fundador: Joan Gamper -->
+<div style="text-align: left; margin: 20px auto; max-width: 700px;">
+    <h3 style="color: #FFD700;">El Fundador</h3>
+    <img src="joangamper.jpg" alt="Joan Gamper" width="300" style="display: block; margin-bottom: 10px;">
+    <p>Joan Gamper fue un visionario suizo apasionado por el fútbol. 
+       Fundó el FC Barcelona en 1899 y lo estableció como un club moderno. 
+       Su dedicación y amor por el deporte sentaron las bases del éxito. 
+       Gracias a él, el Barça se convirtió en un referente internacional.</p>
+</div>
+
+<!-- Fecha de Fundación -->
+<div style="text-align: left; margin: 20px auto; max-width: 700px;">
+    <h3 style="color: #FFD700;">Fecha de Fundación</h3>
+    <img src="fundacion.jpg" alt="Fecha de Fundación" width="300" style="display: block; margin-bottom: 10px;">
+    <p>El club fue fundado el 29 de noviembre de 1899. 
+       La iniciativa surgió en un momento en que el fútbol comenzaba a popularizarse. 
+       Un pequeño grupo de entusiastas lo hizo posible. 
+       Desde entonces, el Barça comenzó a escribir su historia legendaria.</p>
+</div>
+
+<!-- Estadio -->
+<div style="text-align: left; margin: 20px auto; max-width: 700px;">
+    <h3 style="color: #FFD700;">Estadio</h3>
+    <img src="campnou.jpg" alt="Camp Nou" width="400" style="display: block; margin-bottom: 10px;">
+    <p>El Camp Nou se inauguró en 1957 y es el estadio más grande de España. 
+       Ha sido escenario de partidos históricos y finales memorables. 
+       Su arquitectura y capacidad lo hacen emblemático a nivel mundial. 
+       Es un símbolo de identidad para los aficionados del Barça.</p>
+</div>
+
+<!-- Trayectoria -->
+<div style="text-align: left; margin: 20px auto; max-width: 700px;">
+    <h3 style="color: #FFD700;">Trayectoria</h3>
+    <img src="trayectoria.jpg" alt="Trayectoria del Barça" width="300" style="display: block; margin-bottom: 10px;">
+    <p>A lo largo de los años, el Barça ha logrado innumerables títulos. 
+       Su participación en ligas nacionales e internacionales ha sido destacada. 
+       Ha contado con jugadores icónicos que marcaron época. 
+       Su historia refleja constancia, talento y excelencia deportiva.</p>
+</div>
+
+
+    <!-- Sección Jugadores -->
+    <h2><a href="jugadores.html">Jugadores Legendarios</a></h2>
+
+    <!-- Sección Himno -->
+    <h2><a href="https://www.youtube.com/watch?v=9JdugskAcS0&list=RD9JdugskAcS0&start_radio=1" target="_blank">Himno del Barça</a></h2>
+
+    <!-- Sección Momentos Inolvidables -->
+    <h2>Momentos inolvidables</h2>
+    <div>
+        <video width="560" height="315" controls>
+            <source src="El Clásico - Resumen de Real Madrid vs FC Barcelona (2-3).mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+    <!-- Sección Títulos Ganados (reemplaza Turismo: Camp Nou) -->
+    <h2 style="color: yellow;">Títulos Ganados por el FC Barcelona</h2>
+    <div class="contenedor">
+        <div class="trofeo">
+            <img src="champions.jpg" alt="Champions League">
+            <h3>Champions League</h3>
+            <p>Ganada 5 veces</p>
+        </div>
+
+        <div class="trofeo">
+            <img src="laliga.jpg" alt="LaLiga">
+            <h3>LaLiga</h3>
+            <p>Ganada 28 veces</p>
+        </div>
+
+        <div class="trofeo">
+            <img src="copadelrey.jpg" alt="Copa del Rey">
+            <h3>Copa del Rey</h3>
+            <p>Ganada 32 veces</p>
+        </div>
+
+        <div class="trofeo">
+            <img src="supercopa.jpg" alt="Supercopa de España">
+            <h3>Supercopa de España</h3>
+            <p>Ganada 15 veces</p>
+        </div>
+
+        <div class="trofeo">
+            <img src="supercopaeuropa.jpg" alt="Supercopa de Europa">
+            <h3>Supercopa de Europa</h3>
+            <p>Ganada 5 veces</p>
+        </div>
+
+        <div class="trofeo">
+            <img src="mundial.jpg" alt="Mundial de Clubes">
+            <h3>Mundial de Clubes</h3>
+            <p>Ganado 3 veces</p>
+        </div>
+    </div>
+
+    <!-- Archivo Word -->
+    <h2 style="color: yellow;">Descargar Documento</h2>
+    <p>Aquí puedes descargar un documento con más información del Barça:</p>
+    <a href="barca.docx" download>📄 Descargar archivo Word</a>
+
+    <hr style="border: 1px solid yellow;">
+    <footer style="color: yellow;">
+        <p>Creado por Diego Beltrán - Tecnología de Software</p>
+    </footer>
+
+</body>
+</html>
