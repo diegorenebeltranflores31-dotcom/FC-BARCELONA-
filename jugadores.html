@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugadores Históricos - FC Barcelona</title>
+    <style>
+        body {
+            background-color: #960018; /* rojo carmesí */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 2em;
+            color: #FFD700; /* amarillo dorado */
+        }
+
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px;
+        }
+
+        .jugador {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 15px;
+            width: 230px;
+            transition: transform 0.3s ease;
+        }
+
+        .jugador img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            border: 2px solid #FFD700;
+        }
+
+        .jugador img:hover {
+            transform: scale(1.1);
+        }
+
+        .jugador h3 {
+            margin-top: 10px;
+            color: #FFD700;
+        }
+
+        .jugador p {
+            font-size: 0.9em;
+            color: #f2f2f2;
+        }
+
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-top: 1px solid #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jugadores Históricos del FC Barcelona</h1>
+
+    <div class="contenedor">
+        <div class="jugador">
+            <img src="messi.jpg" alt="Lionel Messi">
+            <h3>Lionel Messi</h3>
+            <p>Máximo goleador y símbolo eterno del Barça.</p>
+        </div>
+
+        <div class="jugador">
+            <img src="cruyff.jpg" alt="Johan Cruyff">
+            <h3>Johan Cruyff</h3>
+            <p>Revolucionó el estilo del club con su visión total del juego.</p>
+        </div>
+
+        <div class="jugador">
+            <img src="ronaldinho.jpg" alt="Ronaldinho">
+            <h3>Ronaldinho</h3>
+            <p>El brasileño que devolvió la magia y la sonrisa al Barça.</p>
+        </div>
+
+        <div class="jugador">
+            <img src="maradona.jpg" alt="Diego Maradona">
+            <h3>Diego Maradona</h3>
+            <p>Una leyenda mundial que también vistió la camiseta blaugrana.</p>
+        </div>
+
+        <div class="jugador">
+            <img src="puyol.jpg" alt="Carles Puyol">
+            <h3>Carles Puyol</h3>
+            <p>Capitán y símbolo de coraje, respeto y liderazgo.</p>
+        </div>
+
+        <div class="jugador">
+            <img src="xavi.jpg" alt="Xavi Hernández">
+            <h3>Xavi Hernández</h3>
+            <p>Cerebro del mediocampo, ejemplo de precisión y visión.</p>
+        </div>
+
+        <div class="jugador">
+            <img src="iniesta.jpg" alt="Andrés Iniesta">
+            <h3>Andrés Iniesta</h3>
+            <p>Elegancia y magia en cada toque; autor de goles inolvidables.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Volver al <a href="INDEX5.html">Inicio</a></p>
+        <p>Creado por Diego Beltrán - Tecnología de Software</p>
+    </footer>
+</body>
+</html>
